@@ -8,7 +8,8 @@ class SuperHero:
         self.superpower = superpower
         self.health_points = health_points
         self.catchphrase = catchphrase
-        self.flying = False
+        self.flying = False,
+        self.damage = 32
 
     def get_name(self):
         return self.name
